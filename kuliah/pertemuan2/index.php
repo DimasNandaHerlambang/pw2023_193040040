@@ -20,7 +20,7 @@ $hari = 'Hari ini kita "ujian"';
     <?php echo "Hello, $nama!";  ?>
 
   </h1>
-  <P><?php echo "$hari Pemograman Web"; ?></P>
+  <P><?php echo "$hari Bahasa Inggris"; ?></P>
 
 </body>
 
