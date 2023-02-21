@@ -23,6 +23,13 @@ $bundar = "Bundar Topi saya.";
       <?php echo "$topi, $bundar"; ?>
     </i>
 
+    <?php
+    $nama_depan = 'Dimas Nanda';
+    $nama_belakang = 'Herlambang';
+
+    echo $nama_depan . " " . $nama_belakang;
+    ?>
+
   </h2>
 
 </body>

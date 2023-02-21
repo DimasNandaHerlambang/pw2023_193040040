@@ -1,9 +1,5 @@
 <?php
-$nrp = 40;
-$kali = 5;
-$bagi = 2;
-$tambah = 75;
-$kurang = 20;
+$angka = 40;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,18 +12,15 @@ $kurang = 20;
 </head>
 
 <body>
-
   <?php
-  echo "Aku adalah angka $nrp";
-  echo "</br>";
-  echo $nrp * $kali;
-  echo "</br>";
-  echo $nrp / $bagi;
-  echo "</br>";
-  echo $nrp + $tambah;
-  echo "</br>";
-  echo $nrp - $kurang;
+  echo "Aku adalah angka <b>$angka</b> <br>";
+  echo "Jika aku dikali 5, maka aku sekarang menjadi <b>" . ($angka = $angka * 5)  . "</b> <br>";
+  echo "Jika aku dibagi 2, maka aku sekarang menjadi <b>" . ($angka = $angka /  2) . "</b> <br>";
+  echo "Jika aku dikali 75, maka aku sekarang menjadi <b>" . ($angka = $angka + 75) . "</b> <br>";
+  echo "Jika aku dikali 20, maka aku sekarang menjadi <b>" . ($angka = $angka - 20) . "</b> <br>";
   ?>
+
+
 
 </body>
 
